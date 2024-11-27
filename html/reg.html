@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1" cellpadding="">
+    <table>
         <tr>
-            <th>REGISTRATION FORM</th>
+            <th colspan="">REGISTRATION FORM</th>
         </tr>
         <tr>
             <td>firstname</td>
@@ -60,15 +60,18 @@
         </tr>
         <tr>
             <td>Hobbies</td>
-            <td>drawing<input type="checkbox" name="drawing" value="drawing"></td>
-            <td>dancing<input type="checkbox" value="dancing"></td>
-            <td>singing<input type="checkbox" value="singing"></td>
-            <td>sketching<input type="checkbox" value="sketching"></td>
+            <td>drawing<input type="checkbox" value="drawing" checked>
+            dancing<input type="checkbox" value="dancing" checked>
+            singing<input type="checkbox" value="singing" checked>
+            sketching<input type="checkbox" value="sketching" checked>
+            others<input type="checkbox" value="others" checked>
+            <input type="text"></td>
         </tr>
         <tr>
-            <table border="1" cellpadding="">
-            <th rowspan="5">qualification</th>
-            <td>si.no</td>
+            <td>qualification</td>
+            <td>
+            <table>
+            <th>si.no</th>
             <td>examination</td>
             <td>board</td>
             <td>percentage</td>
@@ -89,21 +92,22 @@
             <td><input type="text"></td>
         </tr>
         <tr>
-            <td>mdraduation</td>
+            <td>3</td>
+            <td>graduation</td>
             <td><input type="text"></td>
             <td><input type="text"></td>
             <td><input type="text"></td>
-        </tr>   
+        </tr> 
+            </td>  
             </table>
         <tr>
             <td>cources applied for</td>
             <td>bca<input type="radio" name="cource">b.com<input type="radio" name="cource">b.a<input type="radio" name="cource"></td>
         </tr>
         <tr>
-            <td><input type="submit" </td>
+            <th><input type="submit" value="login"></th>
+            <th><input type="submit" value="reset"></th>
         </tr>    
-
-        
     </table>
     
 </body>
