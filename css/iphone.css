@@ -1,0 +1,42 @@
+
+.main .nav{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:black;
+    color:white;
+    position:sticky;
+    top:5px;
+
+}
+.main .sample{
+    margin:0px;
+    padding:25px;
+    text-align:center;
+    color:white;
+    background-color:rgb(26, 24, 24)
+}
+.main .body{
+    height:700px;
+    width:100%;
+    background-color:black;
+    background-size:100%;
+    background-position:center;
+    transform:translate(0px,-23px);
+
+}
+.img{
+    color:blue;
+    transform:translate(800px,600px);
+    border-radius:100px;
+    transform:scale(4px);
+}
+.apple{
+    width:100%;
+    transform:translate(800px,600px);
+}
+.pic{
+    margin:0;
+    height:1000px;
+    width:100%;
+}
