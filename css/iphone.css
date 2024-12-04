@@ -25,12 +25,12 @@
     transform:translate(0px,-23px);
 
 }
-.img{
-    color:blue;
-    transform:translate(800px,600px);
+/* .button1{
+    border-radius:25px;
+    padding:50px;
+    transform:translate(850px,-190px);
     border-radius:100px;
-    transform:scale(4px);
-}
+} */
 .apple{
     width:100%;
     transform:translate(800px,600px);
@@ -40,3 +40,41 @@
     height:1000px;
     width:100%;
 }
+.photo{
+    margin:0;
+    transform:translate(00px,-195px);
+
+}
+.button2{
+    transform:translate(850px,-250px);
+    border-radius:25px;
+}
+.watch{
+    display:flex;
+     /* background-color:red;  */
+    justify-content:center;
+    align-items:center;
+}
+.one{
+    display:flex;
+    flex:1;
+    transform:translate(0px,-210px);
+}
+.two{
+    display:flex;
+    flex:1;
+    transform:translate(0px,-210px);
+    
+}
+.ball{
+   display:flex;
+}
+.foot{
+    flex:1;
+    transform:translate(0px,-200px);
+}
+.cri{
+    flex:1;
+    transform:translate(0px,-200px);
+}
+

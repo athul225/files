@@ -1,0 +1,29 @@
+.main{
+    height:600px;
+                                                                                                                                      
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:space-evenly;
+}
+.main .sub1{
+    height:150px;
+    width: 150px;
+    background-color:red;
+    flex:1;
+}
+.sub2{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    flex:1;
+}
+.sub3{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    flex:1;
+}
