@@ -77,4 +77,13 @@
     flex:1;
     transform:translate(0px,-200px);
 }
+.footer{
+    width:60%;
+    justify-content:center;
+    transform:translate(0px,-200px);
+    box-sizing:content-box;
+    transform:translate(400px,-200px);
+    font-size:15px;
+    color:grey;
+}
 
