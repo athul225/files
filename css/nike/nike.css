@@ -1,0 +1,58 @@
+.main{
+
+}
+.nav{
+    display:flex;
+    background-color:rgba(243, 241, 241, 0.747);
+
+
+    
+}
+.sym{
+    flex:3;
+    justify-content:center;
+    align-items:center;
+    transform: translate(10px,0px);
+
+}
+.pro{
+    display:flex;
+    flex:1;
+    width:100%;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-size:15px;
+    font-weight:600px;
+}
+.sec{
+    display:flex;
+    background-color: white;
+}
+.nike{
+    flex:2;
+    justify-content: center;
+    align-items: center;
+
+}
+.new{
+    display:flex;
+    flex:2;
+    width:100%;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight:900;
+    font-style:normal;
+}
+.search{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.text{
+    width:70%;
+    height:30px;
+    border-radius:15px;
+    padding-left: 10px;
+    border:1px solid black;
+}
