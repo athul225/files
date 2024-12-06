@@ -1,4 +1,6 @@
 .main{
+    margin:0px;
+    padding:0px;
 
 }
 .nav{
@@ -29,17 +31,17 @@
     background-color: white;
 }
 .nike{
-    flex:2;
+    flex:3;
     justify-content: center;
     align-items: center;
 
 }
 .new{
     display:flex;
-    flex:2;
-    width:100%;
-    justify-content: space-evenly;
-    font-size: 20px;
+    flex:5;
+    width:50%;
+    justify-content:space-evenly;
+    font-size: 18px;
     font-weight:900;
     font-style:normal;
 }
@@ -55,4 +57,40 @@
     border-radius:15px;
     padding-left: 10px;
     border:1px solid black;
+    background-color:rgba(243, 241, 241, 0.747);
+}
+.icon{
+    flex:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.store{
+    flex:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.thir{
+    top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:19px;
+    background-color: rgba(243, 241, 241, 0.747);;
+
+}
+.a{
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50px,-10px);
+
+}
+.now{
+    padding:0px;
+    margin:0px;
+    
 }
