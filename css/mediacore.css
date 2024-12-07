@@ -1,0 +1,12 @@
+.main{
+    height:100px;
+    width: 100px;
+    background-color: red;
+
+}
+@media (max-width:500px){
+    .main{
+        background-color: blue;
+    }
+
+}
