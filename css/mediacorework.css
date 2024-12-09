@@ -68,14 +68,23 @@
     .services .menu{
         padding-right: 20px;
     }
-    /* .searchbar{
-        left:40px; */
+    .sub3{
+        position:relative;
+        right:50px;
+        top:300px;
     }
+    /* .searchbar{
+        left:40px;
+        { */
+    }     
+        
+    
 
 @media (min-width:769px){
     .services .menu{
         display: none;
     }
+
 }
 @media (max-width:321px){
     .searchbar input{
@@ -88,10 +97,74 @@
     .logo{
         padding:10px;
     }
+    
 }
 .page{
+    padding:20px;
     display: grid;
     grid-template-areas: "text1 img para"
                          "text2 img para"
-                         "text3 img para";
+                         "text3 img para"
+                         "text4 img para";
+     grid-template-rows:100px 100px 100px 100px ;                     
+}
+.sub1{
+    grid-area:text1;
+    /* background-color: aqua; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sub1 input{
+    width:70%;
+    height: 30px;
+}
+.sub2{
+    grid-area:img;
+    /* background-color: blue; */
+    gap:10px 20px;
+}
+.sub3{
+    grid-area:para;
+    /* background-color: blueviolet; */
+    gap:10px 20px;
+}
+.sub4{
+    grid-area:text2;
+    /* background-color: burlywood; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.sub4 input{
+    width:70%;
+    height: 30px;
+}
+.sub5{
+    grid-area:text3;
+    /* background-color: red; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sub5 input{
+    width:70%;
+    height: 30px;
+}
+.sub6{
+    grid-area:text4;
+    /* background-color: green; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.sub6 input{
+    width:70%;
+    height: 30px;
 }

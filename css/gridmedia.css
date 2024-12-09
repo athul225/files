@@ -1,0 +1,26 @@
+.main{
+
+ }
+.grid{
+    /* height:300px; */
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    he
+                        
+}
+.sub{
+    border:1px solid black;
+}
+@media(max-width:769px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+}
+@media(max-width:321px){
+    .grid{
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+}
