@@ -1,6 +1,7 @@
 .main{
  margin:30px;
     padding:0px;
+    /* width:100%; */
 
 }
 .nav{
@@ -121,7 +122,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     position:relative;
     top:-27px;
 }
@@ -253,6 +254,7 @@
     width:10%;
     color:white;
     border:none;
+    font-size: 20px;;
    
 }
 .five{
@@ -266,21 +268,169 @@
 .six{
 
     display:flex;
+    overflow:auto;
+    /* height:200px; */
+    position:relative;
+    top:20px;
 }
 .six .shoe1{
     display:flex;
     flex:1;
 }
+.six .name1{
+    font-size: 30px;
+    font-weight: 1000;
+    position:relative;
+     top:310px; 
+    left:-230px;  
+     
+}
 .six .shoe2{
     display:flex;
     flex:1;
+}
+.six .name2{
+    font-size: 30px;
+    font-weight: 1000;
+    position:relative;
+     top:310px; 
+    left:-230px;  
+     
 }
 .six .shoe3{
     display:flex;
     flex:1;
 }
+.six .name3{
+    font-size: 30px;
+    font-weight: 1000;
+    position:relative;
+     top:310px; 
+    left:-230px;  
+     
+}
 .six .shoe4{
     display:flex;
     flex:1;
 }
+.six .name4{
+    display:flex;
+    font-size: 30px;
+    font-weight: 1000;
+    position:relative;
+     top:310px; 
+    left:-230px;  
+     
+}
+.six .shoe5{
+    display:flex;
+    flex:1;
+}
+.six .name5{
+    display:flex;
+    font-size: 30px;
+    font-weight: 1000;
+    position:relative;
+     top:310px; 
+    left:-230px;
+    /* align-items: center;
+    justify-content: center;  
+      */
+}
+.six .shoe6{
+    display:flex;
+    flex:1;
+}
+.six .name6{
+    display:flex;
+    font-size: 30px;
+    font-weight: 1000;
+    position:relative;
+     top:310px; 
+    left:-230px;  
+     
+}
+.seven{
 
+}
+.trending{
+    font-size: 35px;
+    font-weight: 500;
+    position:relative;
+    top:90px;
+    font-style:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+.seven .pic{
+    display:flex;
+    position:relative;
+    top:100px;
+}
+.seven .pic1{
+    flex:1;
+}
+.seven .pic2{
+    flex:1;
+}
+.sen{
+    position: relative;
+    top: 100px;
+    
+}
+.sen1{
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+}
+.sen2{
+    letter-spacing: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight:1000;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    position:relative;
+    top:-27px;
+}
+.sen3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position:relative;
+    top:-27px;
+
+}
+.shop5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 400;
+    top:-120px; 
+    left:150px; 
+   
+    
+}
+.shop5 input{
+    position:relative;
+    top:10px;
+    right:30px;
+    padding:8px;
+    border-radius:25px;
+    background-color: black;
+    width:8%;
+    color:white;
+    font-size: 20px;;
+}
+.eight{
+   position:relative;
+   top:200px;
+}
+.eight .sport{
+    font-size: 35px;
+    font-weight: 500;
+    font-style:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
