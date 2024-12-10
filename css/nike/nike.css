@@ -161,20 +161,21 @@
     font-size: 28px;
     color:white;
     position:relative;
-    top:-140px;
-    left:70px;
+    top:-130px;
+    left:50px;
     font-weight: 500px;
     font-family: ;
 }
 .shop2{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    align-items: center; 
     font-size: 100px;
     font-weight: 400;
     position:relative;
-    top:-90px;
-    ~
+    top:-120px; 
+    left:150px; 
+   
 }
 .shop2 input{
     padding:10px;
@@ -183,6 +184,7 @@
     width:10%;
     color:black;
     border:none;
+   
 }
 .nike2{
     flex:1;
@@ -190,8 +192,95 @@
     width:600px;
 
 }
+.word2{
+    font-size: 28px;
+    color:white;
+    position:relative;
+    top:-130px;
+    left:50px;
+    font-weight: 500px;
+    font-family: ;
+}
+.shop3{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    font-weight: 400;
+    position:relative;
+    top:-120px; 
+    left:150px; 
+   
+}
+.shop3 input{
+    padding:10px;
+    border-radius:25px;
+    background-color:white;
+    width:10%;
+    color:black;
+    border:none;
+   
+}
 .nike3{
     flex:1;
     height:750px;
     width:600px;
 }
+.word3{
+    font-size: 28px;
+    color:black;
+    position:relative;
+    top:-130px;
+    left:50px;
+    font-weight: 500px;
+    font-family: ;
+}
+.shop4{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    font-weight: 400;
+    position:relative;
+    top:-120px; 
+    left:150px; 
+   
+}
+.shop4 input{
+    padding:10px;
+    border-radius:25px;
+    background-color:black;
+    width:10%;
+    color:white;
+    border:none;
+   
+}
+.five{
+    padding-top:150px;
+    
+}
+.five .classic{
+        font-size: 35px;
+        
+}
+.six{
+
+    display:flex;
+}
+.six .shoe1{
+    display:flex;
+    flex:1;
+}
+.six .shoe2{
+    display:flex;
+    flex:1;
+}
+.six .shoe3{
+    display:flex;
+    flex:1;
+}
+.six .shoe4{
+    display:flex;
+    flex:1;
+}
+
