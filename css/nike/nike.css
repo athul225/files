@@ -254,7 +254,7 @@
     width:10%;
     color:white;
     border:none;
-    font-size: 20px;;
+    font-size: 20px;
    
 }
 .five{
@@ -428,9 +428,117 @@
 .eight{
    position:relative;
    top:200px;
+   
 }
 .eight .sport{
     font-size: 35px;
     font-weight: 500;
     font-style:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+.eight .img{
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    overflow: scroll;
+}
+.eight .batminton{
+    flex:1;
+    /* height:750px;
+    width:600px; */
+}
+.eight .button1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    font-weight: 400;
+    position:relative;
+    top:110px; 
+    right:460px; 
+   
+}
+.button1 input{
+    padding:10px;
+    border-radius:25px;
+    background-color:white;
+    width: 100%;
+    color:black;
+    border:none;
+    font-size: 18px;;
+}
+.eight .football{
+    flex:1;
+    /* height:750px;
+    width:600px; */
+}
+.eight .button2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    font-weight: 400;
+    position:relative;
+    top:110px; 
+    right:460px; 
+   
+}
+.button2 input{
+    padding:10px;
+    border-radius:25px;
+    background-color:white;
+    width: 100%;
+    color:black;
+    border:none;
+    font-size: 18px;;
+}
+.eight .basketball{
+    flex:1;
+    /* height:750px;
+    width:600px; */
+}
+.eight .button3{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    font-weight: 400;
+    position:relative;
+    top:110px; 
+    right:460px; 
+   
+}
+.button3 input{
+    padding:10px;
+    border-radius:25px;
+    background-color:white;
+    width: 100%;
+    color:black;
+    border:none;
+    font-size: 18px;;
+}
+.eight .gym{
+    flex:1;
+    /* height:750px;
+    width:600px; */
+}
+.eight .button4{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    font-weight: 400;
+    position:relative;
+    top:110px; 
+    right:460px; 
+   
+}
+.button4 input{
+    padding:10px;
+    border-radius:25px;
+    background-color:white;
+    width: 100%;
+    color:black;
+    border:none;
+    font-size: 18px;;
 }
