@@ -1,0 +1,170 @@
+.main{
+    margin:0px;
+    padding:0px;
+
+
+}
+.nav{
+    display: flex;
+    background-color: grey;
+}
+.logo{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.searchbar{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar input{
+    height:30px;
+    width: 70%;
+    border-radius: 15px;
+    border:none;
+    padding-left:10px;
+
+}
+.searchicon{
+   position: relative;
+   right: 30px;
+   top: 2px;
+   color:grey;
+}
+
+.services{
+    display:flex;
+    flex:1;
+    width:100%;
+    justify-content: space-evenly;
+   
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight:600px;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:769px){
+    .home{
+      display:none;
+    }
+    .services{
+        justify-content:flex-end;
+    }
+    .services .menu{
+        padding-right: 20px;
+    }
+    .sub3{
+        position:relative;
+        right:50px;
+        top:300px;
+    }
+    /* .searchbar{
+        left:40px;
+        { */
+    }     
+        
+    
+
+@media (min-width:769px){
+    .services .menu{
+        display: none;
+    }
+
+}
+@media (max-width:321px){
+    .searchbar input{
+        display:none;
+    }
+    .searchbar .searchicon{
+        color:black;
+        left:50px;
+    }
+    .logo{
+        padding:10px;
+    }
+    
+}
+.page{
+    padding:20px;
+    display: grid;
+    grid-template-areas: "text1 img para"
+                         "text2 img para"
+                         "text3 img para"
+                         "text4 img para";
+     grid-template-rows:100px 100px 100px 100px ;                     
+}
+.sub1{
+    grid-area:text1;
+    /* background-color: aqua; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sub1 input{
+    width:70%;
+    height: 30px;
+}
+.sub2{
+    grid-area:img;
+    /* background-color: blue; */
+    gap:10px 20px;
+}
+.sub3{
+    grid-area:para;
+    /* background-color: blueviolet; */
+    gap:10px 20px;
+}
+.sub4{
+    grid-area:text2;
+    /* background-color: burlywood; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.sub4 input{
+    width:70%;
+    height: 30px;
+}
+.sub5{
+    grid-area:text3;
+    /* background-color: red; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sub5 input{
+    width:70%;
+    height: 30px;
+}
+.sub6{
+    grid-area:text4;
+    /* background-color: green; */
+    gap:10px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.sub6 input{
+    width:70%;
+    height: 30px;
+}

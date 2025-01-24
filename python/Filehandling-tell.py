@@ -1,0 +1,11 @@
+try:
+    f=open('files/python/tell.txt','x')
+except:
+    pass
+f=open('files/python/tell.txt','r')
+a=f.readline(3)
+print(a)
+b=f.tell()
+print(b)
+c=f.seek(2)
+print(c)

@@ -1,0 +1,21 @@
+.main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 50px 50px ;
+}
+.sub{
+    border:1px solid black;
+}
+.sub2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.sub3{
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+.sub6{
+
+grid-column-start:2;
+grid-column-end: 4;
+}

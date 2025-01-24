@@ -1,0 +1,18 @@
+.main{
+height:1200px;
+width:800px;
+background-color:blue;
+posit
+      }
+.main .position{
+    height:100px;
+    width:100px;
+    background-color:red;
+    position:absolute;
+    top:30px;
+} 
+.main .body{
+    height:100px;
+    width:100px;
+    background-color:black;
+}     

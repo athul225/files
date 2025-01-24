@@ -1,0 +1,143 @@
+.main{
+
+}
+.icon{
+    display:flex;
+    height:5px;
+    width:0px;
+}
+.nav1{
+    display:flex;
+    justify-content: space-around;
+}
+.all{
+    /* display:contents; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:50px;
+}
+.img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .word1{
+    display: flex;
+} */
+.word1{
+    font-size:53px;
+    color:black
+}
+.word2{
+    font-size:53px;
+    color:rgb(231, 169, 10)
+}
+.img2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.word3{
+    font-size: 53px;
+}
+.sec{
+    position: relative;
+    top:80px;
+    align-items: center;
+    justify-content: center;
+}
+.sec1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding:150px; */
+    position: relative;
+    top:120px;
+}
+.pic{
+   position: relative;
+   top:150px;
+}
+.line{
+    position: relative;
+    top:200px;
+}
+.how
+{
+    position: relative;
+    top:200px;
+    font-size: 40px;
+}
+.container-fluid{
+    position: relative;
+    top:200px;
+    font-size:
+}
+.row{
+    display: flex;
+    position: relative;
+    top:200px;
+    text-align: center;
+    justify-content: center;   
+}
+.pic1{
+    position: relative;
+    top:230px;
+    font-size:25px;
+}
+.ph{
+  position: relative;
+  left:70px;
+    height: 150px;
+    width: 150px;
+}
+.ph1{
+    position: relative;
+  left:70px;
+    height: 150px;
+    width: 150px;  
+}
+.box1{
+    position: relative;
+    top:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cli{
+    height:20px;
+    width: 20px;
+}
+.suc{
+    position: relative;
+    top: 50px;
+}
+/* .container-fluid{
+    position: relative;
+    top: 500px;
+    
+} */
+ .tata{
+    position: relative;
+    top: 300px;
+ }
+ .butt{
+    position: relative;
+    top: 320px;
+ }
+ .five{
+    position: relative;
+    top: 100px;
+ }

@@ -1,0 +1,26 @@
+.main{height:200vh;
+    width:100%;
+    background-image:url("https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg;");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:200px 100px;
+    font-family:"arial" "";
+    font-size:30px;
+    font-weight:500;
+    font-style:italic;
+}
+.sample{
+    line-height:1.5;
+    word-spacing:10px;
+    letter-spacing:20px;
+    text-transform:uppercase;
+    text-align:justify;
+    text-direction:ltr;
+    text-decoration-line:underline overline;
+    text-decoration-color:rgb(121, 46, 46) ;
+    text-decoration-style:dashed;
+    text-decoration-thickness:5px;
+    text-indent:10px;
+    text-shadow:2px 2px 5px black;
+       }

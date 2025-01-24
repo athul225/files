@@ -1,0 +1,50 @@
+.main{
+    height:150vh;
+    width:500px;
+    background-color:red;
+}
+.main .sticky{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    position:sticky;
+    top:10px
+}
+.sample{
+    height:150vh;
+    width:500px;
+    background-color:green;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:green;
+}
+a:active{
+
+}
+input:focus{
+    background-color:red;
+}
+p::first-letter{
+    color:red;
+    font-size:20px;
+}
+p::first-line{
+    color:blue;
+}
+ul ::marker{
+    color:green;
+}
+input::placeholder{
+    color:blue;
+}
+
+

@@ -1,0 +1,77 @@
+.main{
+    display:grid;
+    grid-template-areas:"logo searchbar searchbar  home"
+                        "texts image image image"
+                        "img image image image"
+                        "robo robo robo logout";
+     grid-template-rows:100px 200px 200px 100px ;
+}
+
+.sub1{
+    grid-area: logo;
+    background-color: red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sub2{
+    display:flex;
+    grid-area: searchbar;
+    background-color: blue;
+    justify-content:center;
+    align-items:center;
+}
+.search{
+    width:70%;
+    height:30px;
+    border-radius:15px;
+    padding-left: 10px;
+    border:1px solid black;
+    padding-left: ;
+   
+}
+.searchicon{
+    /* background-color: blue; */
+    position: relative;
+    right: 40px;
+    color: grey;
+    top:2px ;
+}
+
+.sub3{display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    grid-area:home;
+    background-color: yellow;
+}
+.sub4{
+    display:flex;
+    grid-area: texts;
+    background-color: aqua;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.sub5{
+    grid-area: image;
+    background-color: white;
+}
+.sub6{
+    grid-area:img ;
+    background-color: blueviolet;
+}
+.sub7{
+    grid-area:robo;
+    background-color:gray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font:30px  black;
+}
+.sub8{
+    grid-area: logout;
+    background-color: green;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

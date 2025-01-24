@@ -1,0 +1,32 @@
+.main{
+    display:grid;
+    grid-template-areas: "logo  searchbar searchbar searchbar services services"
+                         "sidebar sidebar main main main sidebar2";
+    grid-template-rows: 100px 80vh;                     
+}
+.sub1{
+    grid-area: logo;
+    background-color: red;
+}
+.sub2{
+    grid-area: searchbar;
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.sub3{
+    grid-area: services;
+    background-color: yellow;
+}
+.sub4{
+    grid-area: sidebar;
+    background-color: blue;
+}
+.sub5{
+    grid-area: main;
+    background-color: aqua;
+}
+.sub6{
+    grid-area: sidebar2;
+    background-color:green;
+}

@@ -1,0 +1,17 @@
+.main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 50px 50px;
+    /* gap:2px 10px; */
+
+}
+.sub{
+    /* background-color: red; */
+    border:1px solid black;
+}
+.sub1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

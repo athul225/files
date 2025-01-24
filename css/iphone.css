@@ -1,0 +1,89 @@
+
+.main .nav{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:black;
+    color:white;
+    position:sticky;
+    top:5px;
+
+}
+.main .sample{
+    margin:0px;
+    padding:25px;
+    text-align:center;
+    color:white;
+    background-color:rgb(26, 24, 24)
+}
+.main .body{
+    height:700px;
+    width:100%;
+    background-color:black;
+    background-size:100%;
+    background-position:center;
+    transform:translate(0px,-23px);
+
+}
+/* .button1{
+    border-radius:25px;
+    padding:50px;
+    transform:translate(850px,-190px);
+    border-radius:100px;
+} */
+.apple{
+    width:100%;
+    transform:translate(800px,600px);
+}
+.pic{
+    margin:0;
+    height:1000px;
+    width:100%;
+}
+.photo{
+    margin:0;
+    transform:translate(00px,-195px);
+
+}
+.button2{
+    transform:translate(850px,-250px);
+    border-radius:25px;
+}
+.watch{
+    display:flex;
+     /* background-color:red;  */
+    justify-content:center;
+    align-items:center;
+}
+.one{
+    display:flex;
+    flex:1;
+    transform:translate(0px,-210px);
+}
+.two{
+    display:flex;
+    flex:1;
+    transform:translate(0px,-210px);
+    
+}
+.ball{
+   display:flex;
+}
+.foot{
+    flex:1;
+    transform:translate(0px,-200px);
+}
+.cri{
+    flex:1;
+    transform:translate(0px,-200px);
+}
+.footer{
+    width:60%;
+    justify-content:center;
+    transform:translate(0px,-200px);
+    box-sizing:content-box;
+    transform:translate(400px,-200px);
+    font-size:15px;
+    color:grey;
+}
+

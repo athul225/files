@@ -1,0 +1,832 @@
+.main{
+    margin:30px;
+       padding:0px;
+       /* width:100%; */
+   
+   }
+   .nav{
+       display:flex;
+       background-color:rgba(243, 241, 241, 0.747);
+   
+   
+       
+   }
+   .sym{
+       flex:3;
+       justify-content:center;
+       align-items:center;
+       transform: translate(10px,0px);
+   
+   }
+   .pro{
+       display:flex;
+       flex:1;
+       width:100%;
+       justify-content: space-evenly;
+       font-size: 18px;
+       font-size:15px;
+       font-weight:600px;
+   }
+   .sec{
+       display:flex;
+       background-color: white;
+   }
+   .nike{
+       flex:3;
+       justify-content: center;
+       align-items: center;
+   
+   }
+   .new{
+       display:flex;
+       flex:5;
+       width:50%;
+       justify-content:space-evenly;
+       font-size: 18px;
+       font-weight:900;
+       font-style:normal;
+   }
+   .search{
+     flex:1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:none;
+   }
+   .text{
+       width:70%;
+       height:30px;
+       border-radius:15px;
+       padding-left: 10px;
+       /* border:1px solid; */
+       background-color:rgba(243, 241, 241, 0.747);
+       border:none;
+   }
+   .icon{
+    position: relative;
+    right: 55px;
+    top: 25px;
+    color:grey;
+    border:none;
+   }
+   .icon2{
+    flex:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .store{
+       flex:0.5;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+   
+   }
+   .thir{
+       top:10px;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       font-size:19px;
+       background-color: rgba(243, 241, 241, 0.747);;
+   
+   }
+   .a{
+       font-size: 14px;
+       justify-content: center;
+       align-items: center;
+       transform: translate(50px,-10px);
+   
+   }
+   .now{
+       padding:0px;
+       margin:0px;
+       
+   }
+   .vdo{
+   
+   }
+   .pack{
+       padding:25px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size:16px;
+   }
+   .fire{
+       /* height:100px; */
+       letter-spacing: -3px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 100px;
+       font-weight:1000;
+       font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+       position:relative;
+       top:-27px;
+   
+   }
+   .pain{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 20px;
+       position:relative;
+       top:-27px;
+   }
+   .shop1{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 100px;
+       font-weight: 400;
+   }
+   .shop1 input{
+       padding:10px;
+       border-radius:25px;
+       background-color: black;
+       width:8%;
+       color:white;
+   }
+   .late{
+       font-size: 35px;
+       position:relative;
+       top:50px;
+   }
+   .gift{
+       position:relative;
+       top:65px;
+       display:flex;
+       justify-content: space-evenly;
+       align-items: center;
+   
+   }
+   .nike1{
+       flex:1;
+       height:750px;
+       width:600px;
+     
+   }
+   .word1{
+       font-size: 28px;
+       color:white;
+       position:relative;
+       top:-130px;
+       left:50px;
+       font-weight: 500px;
+       /* font-family: ; */
+   }
+   .shop2{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:-120px; 
+       left:150px; 
+      
+   }
+   .shop2 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width:10%;
+       color:black;
+       border:none;
+      
+   }
+   .nike2{
+       flex:1;
+       height:750px;
+       width:600px;
+       margin-left: 12px;
+   
+   }
+   .word2{
+       font-size: 28px;
+       color:white;
+       position:relative;
+       top:-130px;
+       left:50px;
+       font-weight: 500px;
+       /* font-family: ; */
+   }
+   .shop3{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:-120px; 
+       left:150px; 
+      
+   }
+   .shop3 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width:10%;
+       color:black;
+       border:none;
+      
+   }
+   .nike3{
+       flex:1;
+       height:750px;
+       width:600px;
+       margin-left: 12px;
+   }
+   .word3{
+       font-size: 28px;
+       color:black;
+       position:relative;
+       top:-130px;
+       left:50px;
+       font-weight: 500px;
+       /* font-family: ; */
+   }
+   .shop4{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:-120px; 
+       left:150px; 
+      
+   }
+   .shop4 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:black;
+       width:10%;
+       color:white;
+       border:none;
+       font-size: 20px;
+      
+   }
+   .five{
+       padding-top:150px;
+       
+   }
+   .five .classic{
+           font-size: 35px;
+           
+   }
+   .six{
+   
+       display:flex;
+       overflow:auto;
+       /* height:200px; */
+       position:relative;
+       top:20px;
+   }
+   .six .shoe1{
+       display:flex;
+       flex:1;
+   }
+   .six .name1{
+       font-size: 30px;
+       font-weight: 1000;
+       position:relative;
+        top:310px; 
+       left:-230px;  
+        
+   }
+   .six .shoe2{
+       display:flex;
+       flex:1;
+       margin-left:20px;
+   }
+   .six .name2{
+       font-size: 30px;
+       font-weight: 1000;
+       position:relative;
+        top:310px; 
+       left:-230px;  
+        
+   }
+   .six .shoe3{
+       display:flex;
+       flex:1;
+       margin-left:20px;
+   }
+   .six .name3{
+       font-size: 30px;
+       font-weight: 1000;
+       position:relative;
+        top:310px; 
+       left:-230px;  
+        
+   }
+   .six .shoe4{
+       display:flex;
+       flex:1;
+       margin-left:20px;
+   }
+   .six .name4{
+       display:flex;
+       font-size: 30px;
+       font-weight: 1000;
+       position:relative;
+        top:310px; 
+       left:-230px;  
+        
+   }
+   .six .shoe5{
+       display:flex;
+       flex:1;
+       margin-left:20px;
+   }
+   .six .name5{
+       display:flex;
+       font-size: 30px;
+       font-weight: 1000;
+       position:relative;
+        top:310px; 
+       left:-230px;
+       /* align-items: center;
+       justify-content: center;  
+         */
+   }
+   .six .shoe6{
+       display:flex;
+       flex:1;
+       margin-left:20px;
+   }
+   .six .name6{
+       display:flex;
+       font-size: 30px;
+       font-weight: 1000;
+       position:relative;
+        top:310px; 
+       left:-230px;  
+        
+   }
+   .seven{
+   
+   }
+   .trending{
+       font-size: 35px;
+       font-weight: 500;
+       position:relative;
+       top:90px;
+       font-style:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+   }
+   .seven .pic{
+       display:flex;
+       position:relative;
+       top:100px;
+   }
+   .seven .pic1{
+       flex:1;
+   }
+   .seven .pic2{
+       flex:1;
+   }
+   .sen{
+       position: relative;
+       top: 100px;
+       
+   }
+   .sen1{
+       padding:25px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size:20px;
+   }
+   .sen2{
+       letter-spacing: -3px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 100px;
+       font-weight:1000;
+       font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+       position:relative;
+       top:-27px;
+   }
+   .sen3{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 18px;
+       position:relative;
+       top:-27px;
+   
+   }
+   .shop5{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 100px;
+       font-weight: 400;
+       top:-120px; 
+       left:150px; 
+      
+       
+   }
+   .shop5 input{
+       position:relative;
+       top:10px;
+       right:30px;
+       padding:8px;
+       border-radius:25px;
+       background-color: black;
+       width:8%;
+       color:white;
+       font-size: 20px;;
+   }
+   .eight{
+      position:relative;
+      top:200px;
+      
+   }
+   .eight .sport{
+       font-size: 35px;
+       font-weight: 500;
+       font-style:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+   }
+   .eight .img{
+       display:flex;
+       justify-content: space-evenly;
+       position: relative;
+       top: 20px;
+       overflow: scroll;
+   }
+   .eight .batminton{
+       flex:1;
+       /* height:750px;
+       width:600px; */
+   }
+   .eight .button1{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:110px; 
+       right:460px; 
+      
+   }
+   .button1 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width: 100%;
+       color:black;
+       border:none;
+       font-size: 18px;;
+   }
+   .eight .football{
+       flex:1;
+       margin-left:-70px;
+       /* height:750px;
+       width:600px; */
+   }
+   .eight .button2{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:110px; 
+       right:460px; 
+      
+   }
+   .button2 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width: 100%;
+       color:black;
+       border:none;
+       font-size: 18px;;
+   }
+   .eight .basketball{
+       flex:1;
+       margin-left:-50px;
+       /* height:750px;
+       width:600px; */
+   }
+   .eight .button3{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:110px; 
+       right:460px; 
+      
+   }
+   .button3 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width: 100%;
+       color:black;
+       border:none;
+       font-size: 18px;;
+   }
+   .eight .gym{
+       flex:1;
+       margin-left:-70px;
+       /* height:750px;
+       width:600px; */
+   }
+   .eight .button4{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:110px; 
+       right:460px; 
+      
+   }
+   .button4 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width: 100%;
+       color:black;
+       border:none;
+       font-size: 18px;;
+   }
+   .nine{
+       position:relative;
+       top:300px;
+   }
+   .nine .member{
+       position:relative;
+       font-size: 35px;
+   }
+   .scroll{
+       position:relative;
+       top:30px;
+       display:flex;
+       justify-content: space-evenly;
+       align-items: center;
+   
+   }
+   .nike4{
+       flex:1;
+       height:750px;
+       width:600px;
+   }
+   .word4{
+       font-size: 28px;
+       color:white;
+       position:relative;
+       top:-130px;
+       left:50px;
+       font-weight: 500px;
+       /* font-family: ; */
+   }
+   .shop6{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:-120px; 
+       left:150px; 
+      
+   }
+   .shop6 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width:10%;
+       color:black;
+       border:none;
+      
+   }
+   .nike5{
+       flex:1;
+       height:750px;
+       width:600px;
+       margin-left: 12px;
+   
+   }
+   .word5{
+       font-size: 28px;
+       color:white;
+       position:relative;
+       top:-130px;
+       left:50px;
+       font-weight: 500px;
+       /* font-family: ; */
+   }
+   .shop7{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       font-size: 100px;
+       font-weight: 400;
+       position:relative;
+       top:-120px; 
+       left:150px; 
+      
+   }
+   .shop7 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width:17%;
+       color:black;
+       border:none;
+      
+   }
+   .nike6{
+       flex:1;
+       height:750px;
+       width:600px;
+       margin-left: 12px;
+   }
+   .word6{
+       font-size: 28px;
+       color:white;
+       position:relative;
+       top:-130px;
+       left:50px;
+       font-weight: 500px;
+       /* font-family: ; */
+   }
+   .shop8{
+       display: flex;
+       /* justify-content: center; */
+       align-items: center; 
+       /* font-size: 100px; */
+       font-weight: 400;
+       position:relative;
+       top:-120px; 
+       left:150px; 
+      
+   }
+   .shop8 input{
+       padding:10px;
+       border-radius:25px;
+       background-color:white;
+       width:15%;
+       color:black;
+       border:none;
+       /* font-size: 20px; */
+      
+   }
+   .ten{
+       /* padding:200px;  */
+        position:relative;
+        top:350px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+   }
+   
+   /* .ten .tab{
+        display:flex; 
+       justify-content:space-evenly;
+       align-items: center;
+       font-size: 25px;
+       font-weight: 400;
+   }
+   .ten .tab1{
+       display:flex;
+       justify-content:space-evenly;
+       align-items: center;
+       font-size: 20px;
+       font-weight: 400;
+        
+    }   */
+   .row{
+    display:flex;
+    /* flex-wrap: wrap; */
+   }
+   ul{
+    list-style:none;
+    padding-left: -40px;
+   }
+   .footer{
+    /* background-color: red;
+    margin: auto; */
+    padding-left: 400px;
+    padding-right: 400px;
+   }
+   .sub{
+    width:25%;
+    padding:0 40px;
+   }
+   .row h4{
+    font-size:22px;
+    transform: translate(100,100);
+    margin-bottom: 29px;
+    position:relative;
+    left:35px;
+   }
+   .row ul li{
+    margin-bottom: 16px;
+    font-size: 15px;
+    color:grey;
+   }
+   hr{
+    position: relative;
+    top:80px;
+   }
+   .elev{
+    /* padding:200px;  */
+     position:relative;
+     top:500px;
+     justify-content: center;
+     align-items: center;
+     /* margin: auto; */
+}
+
+   .row10{
+    display:flex;
+    /* flex-wrap: wrap; */
+   }
+   .row10 ul{
+    list-style:none;
+    padding-left: -10px;
+   }
+   .footer1{
+    /* background-color: red;
+    margin: auto; */
+    padding-left: -50px;
+    padding-right: 400px;
+   }
+   .sub1{
+    width:25%;
+    padding:0 40px;
+   }
+   h4{
+    font-size:16px;
+    transform: translate(100,100);
+    margin-bottom: 29px;
+    position:relative;
+    left:35px;
+   }
+   .row10 ul li{
+    margin-bottom: 17px;
+    font-size: 15px;
+    color:grey;
+   }
+   .last{
+    display: flex;
+    position:relative;
+     top:300px;
+     justify-content: center;
+     align-items: center;
+     height:500px;
+   }
+   .itm{
+    width:25%;
+    padding:0 10px;
+    color:grey;
+   }
+   .itm1{
+    flex:2;
+   }
+   .itm2{
+    flex:1;
+    border:none;
+   }
+   .itm2 select{
+    border:none;
+    color:grey;
+    background-color: white;;
+   }
+   .itm3{
+    flex:1;
+   }
+   .itm4{
+    flex:1;
+   }
+   .itm5{
+    flex:8;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   @media(max-width:769px){
+
+   }
